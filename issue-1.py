@@ -10,7 +10,7 @@ Finally print message that details all information input by user.
 Example (This is {name}, they are {age} years old. They live at {house_number}{street})
 '''
     #Comment. Ask user to input their name.
-name = input("Please enter your name:").capitalize()
+FullName = input("Please enter your Full Name:").capitalize()
     #Comment. Ask user to input their age.
 age = input("Please enter your age:")
     #Comment. Ask user to input their house_number
