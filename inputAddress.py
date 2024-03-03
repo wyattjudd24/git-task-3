@@ -6,7 +6,7 @@ age = input("Please enter your age:")
     #Comment. Ask user to input their house_number
 house_number = input("Please enter your house number:")
     #Comment. Ask user to input their street.
-street = input("Please enter your street:").capitalize()
+town = input("Please enter your town:").capitalize()
 
-sentence = f"This is {full_name}, they are {age} years old. They live at {house_number} {street}"
+sentence = f"This is {full_name}, they are {age} years old. They live at {house_number} {town}"
 print(sentence)
